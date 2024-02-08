@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        ul li {
+            padding: 5px;
+            border: 1px solid #ddd;
+            margin-bottom: 5px;
+        }
+        
+        ul li ul {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Danh sách con các cấp</h1>
+    
+    <ol style="padding: auto;
+    border: 1px solid #f70909;
+    margin:10px; margin-bottom: 30px;
+    width: 100px;
+    height: 60px;">
+        <li> Item 1</li>
+        <li> Item 2 </li>
+        <li> Item 3</li>
+    </ol>
+    <div style="border: 1px solid #25f709; width: 310px; margin: left; background-color:#1ca50a">
+    <ol>
+        <li type="a">Lowercase </li>
+        <li type="A">Uppercase </li>
+        <li type="i">Lowercase Roman numerals </li>
+        <li type="I">Uppercase Roman numerals </li>
+        <li type="1">Number </li>
+    </ol></div>
+    <div style="border: 1px solid #3e02e4; width: 310px;margin:10px; background-color:aqua;">
+    <ol start="10" type="a">
+        <li>This should be j</li>
+        <li value="3">This should be c
+            <ol>
+                <li>Lasts can nest
+                    <ol>
+                        <li>Nesting depth it unlimited</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+    </ol>
+</div>
+</body>
+</html>
